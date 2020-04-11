@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+}
+
+div {
+  width: 100%;
+  margin: 20px;
+}
+
+div li {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  background: #7159c1;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+div li button {
+  margin-left:15px;
+}
